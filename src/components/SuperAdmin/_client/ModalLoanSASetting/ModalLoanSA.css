@@ -1,0 +1,64 @@
+.modalBackground-loan{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 50%; */
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer-loan {
+  width: 405px;
+  height: 456px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  top: 170px;
+}
+.items-body-one-loan {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+.items-body-one-loan > label {
+  /* padding-bottom: 3px; */
+  font-size: 12px;
+  font-weight: 500;
+  color: #616161;
+}
+.items-row-body-loan {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+.items-row-body-loan > label {
+  width: 97px;
+  height: 28px;
+  background: #e0e0e0;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 5px;
+  color: #0a0a0a;
+}
+.body-loan {
+    display: flex;
+    flex-direction: column;
+  }
+/* .modalContainer-ePay .title-ePay {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  } */

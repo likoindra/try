@@ -1,0 +1,46 @@
+.storeBest {
+  padding: 10px;
+  padding-inline: 20px;
+  border: 1px solid #dfe0eb;
+  width: 351px;
+  height: 313px;
+  background-color: #f3f5f7;
+}
+
+.wrapperTextStore {
+  display: flex;
+}
+.rectangleYellowStore {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.wrapperItemsStore {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper__text-best-seller {
+  padding-left: 10px;
+}
+.textItemsStoreMain {
+  font-size: 20px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.textItemsStoreSub {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+}

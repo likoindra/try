@@ -1,0 +1,248 @@
+.container__map-store {
+}
+
+.wrapper__container-map-store {
+  width: 943px;
+  height: 359px;
+  background-color: #fafafa;
+  margin-top: 20px;
+  position: relative;
+}
+
+.wrapper__map-store {
+  /* width: 100%; */
+  display: flex;
+  height: 311px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper__search-icon {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.wrapper__search-icon input {
+  height: 40px;
+  width: 385px;
+  padding: 22px 60px 22px 20px;
+  border-radius: 15px;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+.wrapper__search-icon > i {
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+}
+
+.main__container-bottom {
+  /* position: relative; */
+  margin-top: 40px;
+  width: 943px;
+  height: 582px;
+  background-color: #fafafa;
+  padding: 24px;
+}
+
+.container__items-bottom {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.container__items-bottom > span {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+.container__items-bottom > input {
+  border: 1.5px solid #d3c9c9;
+  background: #fbfbfb;
+  border-radius: 8px;
+  width: 299px;
+  height: 40px;
+}
+
+.container__items-bottom-2 {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.container__store-name {
+  display: flex;
+  flex-direction: column;
+}
+.container__store-name > span {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+.container__store-name > input {
+  border: 1.5px solid #d3c9c9;
+  background: #fbfbfb;
+  border-radius: 8px;
+  width: 402px;
+  height: 40px;
+}
+
+.container__owner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+}
+.container__owner > span {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+.container__owner > input {
+  border: 1.5px solid #d3c9c9;
+  background: #fbfbfb;
+  border-radius: 8px;
+  width: 402px;
+  height: 40px;
+}
+
+.container__phone-number {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.container__phone-number > span {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+.container__phone-number > input {
+  border: 1.5px solid #d3c9c9;
+  background: #fbfbfb;
+  border-radius: 8px;
+  width: 196px;
+  height: 40px;
+}
+
+.container__upload-image {
+  margin-block: 20px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.wrapper__upload-image {
+  text-align: center;
+  width: 736px;
+  height: 190px;
+  background: rgba(211, 226, 255, 0.1);
+  border: 1px dashed #9e9e9e;
+  border-radius: 8px;
+}
+
+.box__input-image {
+  padding-block: 10px;
+  position: relative;
+}
+.box__input-image > span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #616161;
+}
+
+.box__input-file {
+  font-size: 16px;
+  font-weight: 500;
+  color: #c2c2c2;
+}
+
+.box__input-or {
+  font-size: 20px;
+  font-weight: 500;
+  color: #616161;
+  padding-bottom: 16px;
+}
+
+.container__input-image {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  z-index: 1;
+}
+
+.box__input-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__input-button > button {
+  width: 126px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+  text-transform: none;
+}
+
+.button__bottom-left {
+  display: flex;
+  width:70px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #1571de;
+}
+.button__bottom-main {
+  display: flex;
+  align-items: center;
+}
+.button__bottom-main > span {
+  text-transform: none;
+  color: white;
+}
+/* 
+.button__bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
+/* .button__bottom-left > button {
+  display: flex;
+  width: 59px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #1571de;
+}
+
+.button__bottom-left-main > span {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+} */
+
+/* .box__input-button > span{
+  text-transform: none;
+  width: 126px;
+  height: 40px;
+  border: 1px solid #1571DE;
+  border-radius: 4px;
+} */

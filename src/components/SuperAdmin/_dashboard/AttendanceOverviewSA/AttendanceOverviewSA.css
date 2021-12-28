@@ -1,0 +1,91 @@
+.att-container {
+  width: 100%;
+  height: auto;
+  /* flex: 1; */
+}
+.wrapper__att-container {
+  /* display: flex; */
+  background-color: #fafafa;
+  height: 200px;
+  /* width: 943px; */
+  padding: 10px;
+  /* border-radius: 25px; */
+}
+.wrapper-title-date {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  padding-top: 10px;
+  /* padding: 10px; */
+}
+.title__attendance {
+  display: flex;
+}
+
+.title__attendance > h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.yellow__box {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.container__items-att-overview {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.card__wrapper-items {
+  width: 210px;
+  height: 106px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.text__card-items {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.text__card-items > label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+}
+.text__card-items > span {
+  font-size: 32px;
+  font-weight: 500;
+  color: #404040;
+  /* margin-left: 20px; */
+}
+
+.image__card-items {
+  padding-left: 70px;
+}
+.image__card-items > img {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper__att-container {
+    height: 350px;
+  }
+  .container__items-att-overview {
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: unset;
+  }
+}

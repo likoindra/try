@@ -1,0 +1,35 @@
+.data-list-loan-container {
+  width: 100%;
+  height: auto;
+}
+.wrapper__data-list-loan {
+  background-color: #fafafa;
+  height: 480px;
+  padding: 10px;
+}
+.title__data-list-loan {
+  display: flex;
+  column-gap: 10px;
+}
+.title__data-list-loan > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.box__yellow-data-list {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+}
+
+.table__area-wrapper > button {
+  text-transform: none;
+}
+
+.status__style {
+  background-color: grey;
+  color: white;
+  border-radius: 8px;
+  padding: 3px 10px;
+  display: inline-block;
+}

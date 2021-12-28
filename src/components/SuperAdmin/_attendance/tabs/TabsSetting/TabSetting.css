@@ -1,0 +1,19 @@
+.container__tab-setting {
+  width: 100%;
+  height: 100vh;
+}
+/* .wrapper__tab-setting {
+
+} */
+.text__tabs{
+    font-size: 24px;
+    font-weight: 500;
+    color: #1571de;
+    text-transform: none;
+  }
+.text__tabs active{
+  font-size: 24px;
+  font-weight: 500;
+  color: #1571de;
+  text-transform: none;
+}

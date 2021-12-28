@@ -1,0 +1,82 @@
+.newCustomer {
+  /* flex: 2; */
+  /* margin: 20px; */
+  padding: 20px;
+  border: 1px solid #dfe0eb;
+  width: 100%;
+  /* width: 705px; */
+  height: 313px;
+  /* margin-inline: 20px; */
+  background-color: #f3f5f7;
+}
+
+.wrapperTextNewCust {
+  display: flex;
+  width: 400px;
+}
+.rectangleYellowCust {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.wrapperChartCustomer {
+  height: 90%;
+  /* // width: 100%; */
+  display: flex;
+  flex-direction: row;
+}
+
+/* .wrapper__customer-chart {
+  width: 100%;
+  height: 25%;
+} */
+.textChartCircleOne {
+  align-items: center;
+  height: 100%;
+  width: 200px;
+}
+
+.wrapperChartNewCust {
+  padding-top: 80px;
+}
+.circleOneTextMain {
+  font-size: 24px;
+  font-weight: 500;
+  color: #616161;
+}
+.numberBig {
+  font-size: 24px;
+  font-weight: 500;
+}
+.numberSmall {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wrapperNewCustRate {
+  display: flex;
+  align-items: center;
+}
+.ChartIconBelow {
+  color: #1571de;
+}
+.textCustMain {
+  color: #1571de;
+}
+
+.textCustLast {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+}

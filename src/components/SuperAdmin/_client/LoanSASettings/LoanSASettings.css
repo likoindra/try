@@ -1,0 +1,118 @@
+.loan-sa-settings {
+  width: 100%;
+  height: 100vh;
+}
+.wrapper-loan-download-settings {
+  display: flex;
+  padding-top: 20px;
+}
+.loan__menu-left {
+  position: relative;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+.loan__menu-left > input {
+  height: 40px;
+  width: 395px;
+  padding: 22px 60px 22px 20px;
+  border-radius: 15px;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+.loan__menu-left > i {
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+}
+
+.loan__menu-right {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+}
+.loan__menu-right > button {
+  text-transform: none;
+}
+
+.button__add-store-loan {
+  display: flex;
+  align-items: center;
+  width: 135px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  margin-top: 4px;
+  background-color: #1571de;
+}
+
+.wrapper-loan-sa-setting {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.card-setting-menu-loan-sa {
+  width: 298px;
+  height: 170px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.items-setting-radio-loan-sa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-setting-radio-loan-sa > span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #404040;
+}
+.wrapper-button-bottom-setting-loan-sa {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.items__sub-setting-loan-sa {
+  font-size: 14px;
+  font-weight: 400;
+  color: #616161;
+  text-align: left;
+}
+.items-setting-footer-loan-sa {
+  display: flex;
+  align-items: center;
+  /* flex: 1.5; */
+  /* border: 1px solid black; */
+}
+.items-setting-footer-loan-sa > span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #1571de;
+  text-align: left;
+}
+.button-setting-loan-sa-right {
+  display: flex;
+  column-gap: 20px;
+  /* justify-content: space-between; */
+
+  margin-left: auto;
+}
+.button-setting-loan-sa-right > button {
+  border: none;
+  background-color: #fafafa;
+  /* background-color: var(--main-bg); */
+}

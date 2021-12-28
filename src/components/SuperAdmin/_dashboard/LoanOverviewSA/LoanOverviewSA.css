@@ -1,0 +1,44 @@
+.loan-overview-container {
+  width: 100%;
+  height: auto;
+}
+.wrapper__loan-overview {
+  background-color: #fafafa;
+  height: 533px;
+  /* width: 943px; */
+  padding: 10px;
+}
+.wrapper__title-date-loan-overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.title__loan-overview {
+  display: flex;
+  flex-direction: row;
+}
+.title__loan-overview > h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.yellow__box-loan-overview {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+/* charts style */
+.recharts-cartesian-axis-tick {
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  color: #9fa2b4;
+  text-align: justify;
+  /* display: flex;
+  flex-wrap: wrap; */
+}

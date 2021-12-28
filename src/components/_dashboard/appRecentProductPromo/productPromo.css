@@ -1,0 +1,95 @@
+.productPromo {
+  /* flex: 2; */
+  /* margin: 20px; */
+  padding: 20px;
+  border: 1px solid #dfe0eb;
+  width: 100%;
+  /* width: 596px; */
+  height: 313px;
+  /* margin-inline: 20px; */
+  background-color: #f3f5f7;
+}
+
+.wrapperProductPromo {
+  display: flex;
+  width: 400px;
+}
+/* //   padding-left: 20px;
+    //   padding-top: 20px; */
+.rectangleYellowPromo {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.titleTopNav {
+  display: flex;
+  column-gap: 100px;
+}
+
+.boxProductOne {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* //   column-gap: 40px */
+.productTextOne {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 10px;
+}
+.productTextTwo {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 55px;
+}
+.productTextTwo2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 50px;
+}
+.productTextTwo3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 85px;
+}
+.productTextThree {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 65px;
+}
+.productTextThree2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 50px;
+}
+.productTextThree3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 120px;
+}
+.detailButton {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: auto;
+  cursor: pointer;
+  color: #1571de;
+}

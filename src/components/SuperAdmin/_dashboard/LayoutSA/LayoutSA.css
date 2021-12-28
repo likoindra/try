@@ -1,0 +1,12 @@
+.Layout_SA {
+  color: black;
+}
+
+.LayoutSA_content {
+  padding-left: 281px;
+  min-height: 100vh;
+}
+
+.LayoutSA_content-main {
+  padding: 20px;
+}

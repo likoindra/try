@@ -1,0 +1,35 @@
+.bestSpg {
+  padding: 10px;
+  padding-inline: 20px;
+  border: 1px solid #dfe0eb;
+  width: 350px;
+  height: 313px;
+  background-color: #f3f5f7;
+}
+
+.wrapperBestSpg {
+  display: flex;
+}
+
+.wrapper__ItemsBestSpg {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.wrapper__text-best-spg {
+  padding-left: 10px;
+}
+.rectangleYellowBestSpg {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}

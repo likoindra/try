@@ -1,0 +1,37 @@
+.recentLoan {
+    padding: 10px;
+    padding-inline: 20px;
+    border: 1px solid #dfe0eb;
+    width: 350px;
+    height: 313px;
+    background-color: #f3f5f7;
+  }
+  
+  .wrapperRecentLoan {
+    display: flex;
+  }
+  
+  .wrapper__ItemsRecentLoan{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .wrapper__text-recent-loan {
+    padding-left: 10px;
+  }
+  .rectangleYellowRecentLoan{
+    width: 15px;
+    height: 28px;
+    background-color: #ffe200;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .chartTitleRecentLoan{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+  }
+  

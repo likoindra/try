@@ -1,0 +1,99 @@
+.custBottom {
+  /* flex: 2; */
+  /* margin: 20px; */
+  padding: 20px;
+  border: 1px solid #dfe0eb;
+  width: 100%;
+  /* width: 596px; */
+  height: 313px;
+  /* margin-inline: 20px; */
+  background-color: #f3f5f7;
+}
+
+.wrapperCustBottom {
+  display: flex;
+}
+.rectangleYellowCustBottom {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.wrapperItemsBestSpg {
+  padding-bottom: 40px;
+}
+.textItemsStoreMain {
+  font-size: 20px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.textItemsStoreSub {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+
+.titleTopNavCustBottom {
+  display: flex;
+}
+
+
+.productName {
+  padding-left: 70px;
+}
+
+.storeCust {
+  padding-left: 50px;
+}
+.dateCust {
+  padding-left: 80px;
+}
+
+.boxProductCustBottom {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.itemsCustName {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 10px;
+}
+.itemsProduct {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 70px;
+}
+.itemsStore {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 45px;
+}
+.itemsDate {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 25px;
+}
+.detailButton {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: auto;
+  cursor: pointer;
+  color: #1571de;
+}

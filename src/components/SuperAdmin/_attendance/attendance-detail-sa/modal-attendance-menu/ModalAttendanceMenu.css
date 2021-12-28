@@ -1,0 +1,93 @@
+.modalBackground-modal-attendance {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer-modal-attendance {
+  width: 405px;
+  height: 418px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  top: 10px;
+}
+.titleCloseBtn-modal-attendance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items__fill-modal-attendance {
+  display: hidden;
+  font-size: 0;
+}
+.text__main-modal-attendance {
+  font-size: 28px;
+  font-weight: 500;
+  color: #616161;
+}
+.container-body-modal-attendance {
+  padding-top: 20px;
+}
+.box-text-modal-attendance {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.box-text-modal-attendance > label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #616161;
+}
+.box-text-modal-attendance > span {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+  /* color: #616161; */
+}
+
+.box-text-sub-modal-attendance {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+}
+.box-text-sub-modal-attendance > label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #616161;
+}
+.box-text-sub-modal-attendance > span {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.box-text-footer-modal-attendance {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+}
+.box-text-footer-modal-attendance > label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #616161;
+}
+.box-text-footer-modal-attendance > span {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+
+}

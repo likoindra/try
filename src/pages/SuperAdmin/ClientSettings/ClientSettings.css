@@ -1,0 +1,13 @@
+.container-client-settings {
+  width: 100%;
+  height: 100%;
+}
+.top__items-settings {
+  display: flex;
+  align-items: center;
+}
+.top__items-settings > span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #255bfc;
+}

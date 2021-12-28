@@ -1,0 +1,42 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/dashboard",
+    "icon": "bx bxs-dashboard"
+  },
+  {
+    "display_name": "Client",
+    "route": "/client",
+    "icon": "bx bxs-store"
+  },
+  {
+    "display_name": "Loan",
+    "route": "/loan",
+    "icon": "bx bx-package"
+  },
+  {
+    "display_name": "Attendance",
+    "route": "/attendance",
+    "icon": "bx bx-notepad"
+  },
+  {
+    "display_name": "Workspace",
+    "route": "/workspace",
+    "icon": "bx bxl-slack"
+  },
+  {
+    "display_name": "Information",
+    "route": "/information",
+    "icon": "bx bx-info-circle"
+  },
+  {
+    "display_name": "Profile",
+    "route": "/pofile",
+    "icon": "bx bxs-user-rectangle"
+  },
+  {
+    "display_name": "Setting",
+    "route": "/settings",
+    "icon": "bx bx-cog"
+  }
+]

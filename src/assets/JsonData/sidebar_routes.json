@@ -1,0 +1,48 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/dashboard",
+        "icon": "bx bxs-dashboard"
+       
+    },
+    {
+        "display_name": "Store",
+        "route": "/store",
+        "icon": "bx bxs-store"
+    },
+    {
+        "display_name": "Products",
+        "route": "/product",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Employee",
+        "route": "/employee",
+        "icon": "bx bxs-user-badge"
+    },
+    {
+        "display_name": "Information",
+        "route": "/information",
+        "icon": "bx bx-info-circle"
+    },
+    {
+        "display_name": "Customer",
+        "route": "/customer",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Attendance",
+        "route": "/atttendance",
+        "icon": "bx bx-notepad"
+    },
+    {
+        "display_name": "Profile",
+        "route": "/pofile",
+        "icon": "bx bxs-user-rectangle"
+    },
+    {
+        "display_name": "Setting",
+        "route": "/settings",
+        "icon": "bx bx-cog"
+    }
+]

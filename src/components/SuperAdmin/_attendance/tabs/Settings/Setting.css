@@ -1,0 +1,73 @@
+.container__setting {
+  width: 100%;
+  height: 100vh;
+}
+.wrapper__setting {
+  display: flex;
+  padding-top: 20px;
+}
+.setting__menu-left {
+  position: relative;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+.setting__menu-left > input {
+  height: 40px;
+  width: 395px;
+  padding: 22px 60px 22px 20px;
+  border-radius: 15px;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+.setting__menu-left > i {
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+}
+.setting__menu-right {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+}
+.setting__menu-right > button {
+  text-transform: none;
+}
+.button__add-store-setting {
+  display: flex;
+  align-items: center;
+  width: 135px;
+  height: 40px;
+  border: 1px solid #1571de;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  margin-top: 4px;
+  background-color: #1571de;
+}
+.container__setting-card {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.card__setting-menu {
+  width: 298px;
+  height: 170px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+}
+.items-setting-footer-setting {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}

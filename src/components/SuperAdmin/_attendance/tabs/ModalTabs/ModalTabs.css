@@ -1,0 +1,70 @@
+.modalBackground-modal-tabs {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* opacity: 50%; */
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer-modal-tabs {
+  width: 438px;
+  height: 368px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  top: 100px;
+}
+
+.img-item-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+}
+.img-item-main > {
+  width: 100%;
+  height: auto;
+}
+
+.text-main-modal-tabs-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+}
+.text-main-modal-tabs-settings > span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #404040;
+}
+
+.button-wrapper-modal-tabs-settings {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  column-gap: 20px;
+}
+
+.button-delete-modal-tabs-settings > button {
+  width: 183px;
+  height: 44px;
+  border-radius: 4px;
+  color: white;
+}
+
+.button-modal-tabs {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}

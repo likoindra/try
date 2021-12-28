@@ -1,0 +1,133 @@
+.charts {
+  padding: 20px;
+  border: 1px solid #dfe0eb;
+  width: 100%;
+  height: 431px;
+  /* margin-inline: 20px; */
+  background-color: #f3f5f7;
+}
+
+.wrapperChartTitle {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.wrapperText {
+  display: flex;
+  align-items: center;
+  /* padding-top: 20px; */
+}
+.rectangleYellow {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.chartDetails {
+  margin-left: auto;
+  align-self: flex-end;
+  font-weight: 600;
+  cursor: pointer;
+  color: #7abae8;
+  padding-bottom: 20px;
+  width: 155px;
+  height: auto;
+  /* padding-bottom: 20px; */
+}
+/* .DatePicker {
+  width: 155px;
+} */
+
+/* box dropdpwn */
+.box__dropdown {
+  width: 114px;
+  height: 40px;
+  position: relative;
+  user-select: none;
+  margin-top: 5px;
+}
+.dropdown__button {
+  display: flex;
+  width: 114px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  background: #fbfbfb;
+  border: 1.5px solid #d3c9c9;
+  border-radius: 8px;
+  text-overflow: none;
+  padding-inline: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6f6f70;
+  cursor: pointer;
+}
+
+.box__dropdown .dropdown__content-add-product {
+  position: absolute;
+  top: 45px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6f6f70;
+  width: 95%;
+}
+
+.box__dropdown .dropdown__content-add-product .dropdown__item-add-product {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.box__dropdown
+  .dropdown__content-add-product
+  .dropdown__item-add-product:hover {
+  background: #fbfbfb;
+}
+
+.textBelowCharts {
+  margin-bottom: 0;
+}
+.textBelowMain {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+.textBelowSub {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+.textWrapperCharts {
+  display: flex;
+  align-items: center;
+}
+.textChartsMain {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1b45d9;
+}
+.ChartIconBelow {
+  color: #1b45d9;
+}
+.TextChartLast {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+  padding-left: 10px;
+}
+
+.recharts-cartesian-axis-tick {
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  color: #9fa2b4;
+}

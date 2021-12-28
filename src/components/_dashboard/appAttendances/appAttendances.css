@@ -1,0 +1,106 @@
+.attendences {
+    /* flex: 2; */
+  /* margin: 20px; */
+  /* padding: 15px; */
+  padding-inline: 20px;
+  border: 1px solid #dfe0eb;
+  /* width: 350px; */
+  width: 351px;
+  height: 431px;
+  /* margin-inline: 20px; */
+  background-color: #f3f5f7;
+}
+
+.wrapperTextAtt {
+  display: flex;
+  padding-top: 25px;
+}
+.rectangleYellow {
+  width: 15px;
+  height: 28px;
+  background-color: #ffe200;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.wrapperChartAtt {
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  /* padding-bottom: 5px; */
+}
+.rectangleOne {
+  padding-left: 20px;
+  margin-top: 30px; 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-items: center; */
+}
+
+.rectangleOne > label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7D7D7D;
+  text-align: left;
+}
+
+.rectangleOne > span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: left;
+}
+.rectangleDarkBlue {
+  width: 24px;
+  height: 24px;
+  background-color: #1b45d9;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+.recBlue {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.rectangleOrange {
+  width: 24px;
+  height: 24px;
+  background-color: #e3794f;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+.recOrange {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.rectangleAqua {
+  width: 24px;
+  height: 24px;
+  background-color: #34b7d3;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.recAqua {
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+@media (max-width: 1024px) {
+  /* .wrapper__averageSA {
+    height: 300px;
+  }
+  .wrapper__items-averageSA {
+    flex-wrap: wrap;
+    row-gap: 20px ;
+  } */
+}

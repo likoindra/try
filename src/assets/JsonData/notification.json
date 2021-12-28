@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "lorem ipsum dolor "
+    },
+    {
+        "icon": "bx bx-package",
+        "content": "This is just dummy "
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "dummy message"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "another dummy message"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "this one too "
+    }
+]
